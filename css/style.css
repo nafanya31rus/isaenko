@@ -107,6 +107,7 @@ a {
     width: 1920px;
     height: 670px;
     flex-shrink: 0;
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -115,7 +116,7 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    padding: 80px 320px;
+    padding: 80px 320px 0 320px;
 }
 
 .title {
@@ -168,4 +169,224 @@ a {
     font-weight: 400;
     line-height: 26px;
     width: 414px;
+}
+
+.container__inner-items-2{
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.book__bg {
+    position: relative;
+}
+
+.book-bg__img {
+    position: relative;
+}
+
+.book-bg__img-1 {
+    position: absolute;
+    left: 342px;
+}
+
+.book-bg__img-2 {
+    position: absolute;
+    left: 645px;
+}
+
+.book-bg__img-3 {
+    position: absolute;
+    left: 952px;
+}
+
+.book-bg__img-4 {
+    position: absolute;
+    left: 1245px;
+}
+
+.container__inner__item-book__box {
+    display: flex;
+    width: 280px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.container__inner__item-book__title {
+    color: var(--color-grey900);
+    font-family: 'Gilroy', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.container__inner__item-book__text {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.container__inner__btn {
+    background: var(--color-brand100);
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+}
+
+.btn__link {
+    color: var(--color-brand600);
+    /* H4 */
+    font-family: 'Shnobel', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.btn-1 {
+    margin-top: 10px;
+}
+
+.btn-2 {
+    margin-top: 36px;
+}
+
+.btn-3 {
+    margin-top: 10px;
+}
+
+.btn-4 {
+    margin-top: 36px;
+}
+
+.banner__img__inner {
+    background: url("../img/banner-1.png") repeat no-repeat;
+    width: 1280px;
+    height: 760px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.banner__text {
+    color: #fff;
+    font-family: 'Shnobel', sans-serif;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px;
+}
+
+.banner__subtext {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.container-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 475px;
+}
+
+.banner__btn {
+    display: flex;
+    padding: 16px 26px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    background: var(--color-brand600);
+}
+
+.banner__btn__link {
+    color: #fff;
+    font-family: 'Shnobel', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.feedback {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 76px;
+}
+
+.feedback__text {
+    color: #111827;
+    text-align: center;
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.feedback__btn {
+    display: flex;
+    padding: 16px 26px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    background: var(--color-brand100);
+}
+
+.feedback__btn__link {
+    font-family: 'Shnobel', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--color-brand600);
+}
+
+.footer {
+    display: flex;
+    padding: 20px 325px;
+    width: 1270px;
+    align-items: center;
+    gap: 320px;
+    background: linear-gradient(269deg, #4729A0 26.2%, #733EE3 60.93%);;
+}
+
+.offer {
+    color: #FFF;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.social__links {
+    padding-left: 129px;
+}
+
+.copyright {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
 }
