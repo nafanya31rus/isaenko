@@ -12,20 +12,46 @@
 <header class="header">
     <div class="header__content">
         <div class="header__content-top">
-            <a href="#" class="logo__link">
+            <a href="./index.html" class="logo__link">
                 <img src="./img/logo.svg" alt="Логотип" class="logo">
             </a>
             <nav class="nav__menu">
                 <ul class="nav__menu-items">
                     <li><a href="#" class="nav__menu-items-link">Каталог книг</a></li>
-                    <li><a href="#" class="nav__menu-items-link">Об авторе</a></li>
+                    <li><a href="./about.html" class="nav__menu-items-link">Об авторе</a></li>
                     <li><a href="#" class="nav__menu-items-link">Отзывы</a></li>
                     <li><a href="#" class="nav__menu-items-link">Доставка</a></li>
                 </ul>
             </nav>
+            <div class="language-change__form">
+                <label for="language-change"></label><select name="language" id="language-change">
+                <option value="Russian">Русский</option>
+                <option value="Ukrainian">Украинский</option>
+                <!--                    <option value="English">Английский</option>-->
+            </select>
+            </div>
+            <div class="cart">
+
+            </div>
         </div>
         <div class="header-bg">
-            <img src="./img/header-bg.png" alt="" class="header-bg__inner__img">
+            <!--            <img src="./img/header-bg.png" alt="" class="header-bg__inner__img">-->
+            <div class="header-bg__inner">
+                <div class="header-bg__inner__container">
+                    <h1 class="header-bg__container__title">
+                        Книги<span class="header-bg__title__span">которые меняют жизнь</span>
+                    </h1>
+                </div>
+                <div class="header-bg__inner__container">
+                    <p class="header-bg__text">
+                        Эти книги изменили ментальность <span class="header-bg__text__span">более 100000 людей</span>
+                    </p>
+                    <p class="header-bg__subtext">
+                        У меня получается при помощи письма достучаться в самые постойные места души и дать вектор из их
+                        внутренних проблем.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 
