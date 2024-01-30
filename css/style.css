@@ -773,11 +773,142 @@ p.text-biography {
         padding-bottom: 20px;
     }
 
+    .container__inner-items__text {
+        display: flex;
+        width: 330px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
     .container__inner-items__subtext {
         display: -webkit-box;
         width: 330px;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 10;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        /* M normal */
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .content_block {
+        overflow: hidden;
+        position: relative;
+    }
+    .content_block.hide {
+        height: 200px;
+    }
+    .content_block.hide:after{
+        content: "";
+        display: block;
+        height: 100px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .text-2 {
+        display: none;
+    }
+
+    .text-3 {
+        display: none;
     }
 }
+/**/
+.container-delivery {
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 320px 0 320px;
+}
+.title-delivery {
+    padding-bottom: 40px;
+}
 
+.container__inner-delivery {
+    display: flex;
+    width: 630px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0 945px 40px 305px;
+}
+.container__inner-items__delivery {
+    color: var(--color-grey900);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 100% */
+    font-family: 'Gilroy', sans-serif;
+}
+
+
+.container__inner-items__delivery-1 {
+    color: var(--color-grey900);
+    font-family: 'Gilroy', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+}
+.delivery-1-text {
+    margin-top: 10px;
+}
+
+.container__inner-items-delivery-div1 {
+    width: 1278px;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    padding: 0 320px 0 320px;
+}
+
+.container__inner-items__text-delivery {
+    width: 306px;
+    display: flex;
+    height: 128px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.10);
+
+}
+
+.inner-items__text-delivery {
+    color: var(--color-grey900);
+    font-family: 'Gilroy', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 100% */
+}
+
+.container__inner-items__subtext-delivery {
+    width: 266px;
+    color: var(--color-grey600, #4B5563);
+    font-family: 'Gilroy', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.feedback-delivery {
+    width: 1278px;
+    padding-top: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 140px;
+}
