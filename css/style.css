@@ -521,7 +521,7 @@ p.text-biography {
     height: 501px;
 }
 
-.container__inner__author__title {
+.container__inner-author__title {
     font-family: 'Gilroy', sans-serif;
     font-style: normal;
     font-size: 16px;
@@ -911,4 +911,166 @@ p.text-biography {
     align-items: center;
     gap: 20px;
     padding-bottom: 140px;
+}
+
+/* Отзывы страница*/
+/*Заглавный блок*/
+.header-bg-feedback {
+    background: linear-gradient(90deg, rgba(44,8,117,1) 0%, rgba(76,33,160,1) 100%);
+    width: 1278px;
+    height: 310px;
+    margin-left: 121px;
+    border-radius: 20px;
+    margin-block-end: 60px;
+}
+
+.header-bg-feedback__inner {
+    width: 791px;
+    height: 220px;
+    padding-top: 45px;
+    padding-left: 40px;
+    overflow:hidden
+}
+
+.header-bg-feedback__inner_insta{
+    width: 399px;
+    height: 220px;
+    display:inline-block;
+}
+
+.header-bg-feedback__inner_insta-text{
+    padding-top: 16px;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Gilroy', sans-serif;
+}
+
+.header-bg-feedback__inner_insta_button{
+    width: 263px;
+    height: 56px;
+    color: #7A40ED;
+    border-radius: 100px;
+    background-color: #EDE9FE;
+    margin-top: 16px;
+    padding-left: 30px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.header-bg-feedback__inner_info{
+    width: 422px;
+    height: 220px;
+    position:absolute;
+    display:inline-block;
+}
+
+.header-bg-feedback__inner_banner{
+    width: 166px;
+    height: 90px;
+    Float: left;
+    margin-right: 40px;
+    margin-block-end: 20px;
+}
+
+.header-bg-feedback__inner_banner h1{
+    font-size: 54px;
+    line-height: 62px;
+    color: #fff;
+}
+
+.header-bg-feedback__inner_banner p{
+    font-size: 16px;
+    font-family: 'Gilroy', sans-serif;
+    color: #fff;
+    line-height: 20px;
+}
+
+/*Image*/
+.phone{
+    float: right;
+    padding-right:110px;
+    padding-top:15px;
+}
+
+.Logo-Group{
+    height: 40px;
+    width: 40px;
+}
+
+.Icon_strelka{
+    margin-left: 210px;
+    margin-top: -23px;
+    position:absolute;
+    height: 20px;
+    width: 20px;
+}
+
+
+
+/*Отзывы(карусель)*/
+.feedback{
+   
+    text-align:center;
+    margin-left: 121px;
+    margin-block-end: 60px;
+}
+
+.feedback h1{
+    font-size: 54px;
+    line-height: 62px;
+    margin-block-end: 30px;
+}
+
+
+
+
+#carousel {
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+
+#prev,
+#next {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: white;
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    outline: 0;
+    cursor: pointer;
+    position: absolute;
+}
+
+#prev {
+    margin-block-end: 0;
+    left: 0;
+    transform: translate(50%, -50%);
+    display: none;
+}
+
+#next {
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+
+#content {
+    display: grid;
+    grid-gap: 16px;
+    grid-auto-flow: column;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.item {
+    width: 306px;
+    height: 544px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    overflow: hidden;
 }
